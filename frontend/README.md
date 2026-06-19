@@ -40,6 +40,9 @@ Reemplazar `https://TU-BACKEND.up.railway.app` con la URL real del backend en Ra
 4. Deploy → Netlify genera una URL (ej. `https://micasita-sus.netlify.app`)
 5. Copiar esa URL y agregarla a la variable `FRONTEND_URL` del backend en Railway
 
+Si Netlify sigue mostrando `Page not found`, revisa que el sitio esté apuntando al directorio que contiene `index.html`.
+Si el repo se conecta desde una carpeta superior, la publicación debe apuntar a `frontend/` en vez de `.`.
+
 ---
 
 ## Estructura
